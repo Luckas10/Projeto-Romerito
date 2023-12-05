@@ -1,0 +1,13 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-primary {
+    background-color: purple !important;
+}
+
+.imagens {
+    width: 100px;
+    height: 60vh;
+}
