@@ -4,10 +4,28 @@
 }
 
 .bg-primary {
-    background-color: purple !important;
+    background-color: lightblue !important;
 }
 
 .imagens {
     width: 100px;
     height: 60vh;
+}
+
+.teste {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.teste nav {
+    position: fixed;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
 }
