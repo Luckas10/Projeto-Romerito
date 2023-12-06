@@ -6,6 +6,51 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+button, a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.15);
+    position: fixed;
+}
+
+.img-logo1 {
+    width: 55px;
+    height: 55px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
 body{
     background-color: white;
     height: 100vh;
@@ -22,6 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 76%;
+    padding-top: 8%;
 }
 
 div.detalhes1{
@@ -75,7 +121,7 @@ h1.showinfo{
     margin-top: 18px;
 }
 
-h2{
+.detalhes h2, .detalhes2 h2{
     font-size:  30px;
     font-weight: 200;
     margin-top: 3px;
@@ -112,6 +158,7 @@ div.inscricao{
 
 a#success{
     color: black;
+    text-decoration: underline;
 }
 a#success:hover{
     color: rgb(159, 149, 18);
