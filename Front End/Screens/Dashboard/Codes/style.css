@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+}
+
+
+/* Cabeçalho */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.15);
+    position: fixed;
+}
+
+.img-logo1 {
+    width: 55px;
+    height: 55px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Conteúdo */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+}
+
+.evento1, .evento2, .evento3, .evento4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 22%;
+    background-color: rgb(255, 255, 255);
+}
+
+.evento1 div, .evento2 div, .evento3 div, .evento4 div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.evento1 div img, .evento2 div img, .evento3 div img, .evento4 div img {
+    width: 90%;
+}
+
+.texto-post {
+    justify-content: space-evenly !important;
+}
+
+.texto-post h1 {
+    font-size: 36pt;
+}
+
+.texto-post h3 {
+    padding: 10%;
+}
+
+.texto-post button {
+    padding: 3% 10%;
+    border-radius: 30px;
+    background-color: rgb(67, 0, 190);
+    border: 3px solid black;
+    color: white;
+}
