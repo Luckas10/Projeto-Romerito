@@ -61,7 +61,7 @@
 }
 
 #continuar:hover {
-    background-color: #858585;
+    background-color: #a0a0a0;
     cursor: pointer;
 }
 
@@ -82,7 +82,7 @@
     justify-content: center;
     align-items: center;
     height: 48px;
-    background-color: #191919;
+    background-color: #2e2e2e;
     border: 1px solid #D8D8D8;
     color: #F5F5F5;
     border-radius: 8px;
@@ -131,7 +131,7 @@
 .termos {
     width: 445px;
     margin-top: 40px;
-    background-color: #333333;
+    background-color: #bebebe;
     height: 40px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -149,4 +149,9 @@
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: bold;
+}
+
+@media screen and (max-width: 1080px){
+    
+    
 }
