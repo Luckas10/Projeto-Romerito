@@ -7,7 +7,10 @@
 
 html, body {
     height: 100%;
-    background-color: white;
+}
+
+body {
+    background-color: #1f2029;
 }
 
 .wrapper {
@@ -92,7 +95,7 @@ html, body {
 }
 
 .slide-control-button {
-    color: rgb(255, 255, 255);
+    color: #fff;
     cursor: pointer;
     background: transparent;
     font-size: 18px;
