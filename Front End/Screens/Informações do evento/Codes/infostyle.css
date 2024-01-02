@@ -30,10 +30,11 @@ button, a {
     height: 55px;
 }
 
-.logo {
+.logo a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: black;
 }
 
 .links {
@@ -46,9 +47,10 @@ button, a {
     margin-bottom: 8px;
 }
 
-.links a {
+a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 body{

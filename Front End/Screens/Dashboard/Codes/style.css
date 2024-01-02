@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+button, a {
+    cursor: pointer;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -29,10 +33,11 @@ body {
     height: 55px;
 }
 
-.logo {
+.logo a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: black;
 }
 
 .links {
@@ -45,11 +50,11 @@ body {
     margin-bottom: 8px;
 }
 
-.links a {
+a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
-
 
 /* Conteúdo */
 
